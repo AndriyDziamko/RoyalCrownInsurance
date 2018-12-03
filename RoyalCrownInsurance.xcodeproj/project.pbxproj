@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A394C782974E6CE53DCDBC6 /* libPods-RoyalCrownInsurance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7D10229A57D9BB990B36AD /* libPods-RoyalCrownInsurance.a */; };
+		95ADDC6521B017FE008BA4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC6421B017FE008BA4D7 /* AppDelegate.swift */; };
+		95ADDC6721B017FE008BA4D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC6621B017FE008BA4D7 /* ViewController.swift */; };
+		95ADDC6A21B017FE008BA4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ADDC6821B017FE008BA4D7 /* Main.storyboard */; };
+		95ADDC6F21B017FF008BA4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ADDC6D21B017FF008BA4D7 /* LaunchScreen.storyboard */; };
+		95ADDC7721B0191A008BA4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ADDC7621B0191A008BA4D7 /* Assets.xcassets */; };
+		95ADDC7921B02B8E008BA4D7 /* RoyalAssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC7821B02B8E008BA4D7 /* RoyalAssistViewController.swift */; };
+		95ADDC7B21B02D00008BA4D7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC7A21B02D00008BA4D7 /* WebViewController.swift */; };
+		95ADDC7D21B04457008BA4D7 /* ReportAnAccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC7C21B04457008BA4D7 /* ReportAnAccidentViewController.swift */; };
+		95ADDC7F21B07A83008BA4D7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 95ADDC7E21B07A83008BA4D7 /* Podfile */; };
+		95ADDC8121B07E4F008BA4D7 /* BranchesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC8021B07E4F008BA4D7 /* BranchesMapViewController.swift */; };
+		95ADDC8721B14409008BA4D7 /* AboutRoyalAssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC8621B14409008BA4D7 /* AboutRoyalAssistViewController.swift */; };
+		95ADDC8D21B1D075008BA4D7 /* Office.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC8C21B1D075008BA4D7 /* Office.swift */; };
+		95ADDC9521B2CB37008BA4D7 /* PersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC9421B2CB37008BA4D7 /* PersonalTableViewController.swift */; };
+		95ADDC9721B2CB67008BA4D7 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC9621B2CB67008BA4D7 /* Services.swift */; };
+		95ADDC9921B2DB4A008BA4D7 /* PersonalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC9821B2DB4A008BA4D7 /* PersonalTableViewCell.swift */; };
+		95ADDC9C21B2EE34008BA4D7 /* DatailPersonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC9B21B2EE34008BA4D7 /* DatailPersonal.swift */; };
+		95ADDCA021B2F802008BA4D7 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDC9F21B2F802008BA4D7 /* AboutUs.swift */; };
+		95ADDCA421B2FBDE008BA4D7 /* WhatTodDoIfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDCA321B2FBDE008BA4D7 /* WhatTodDoIfTableViewController.swift */; };
+		95ADDCA821B2FD21008BA4D7 /* Accident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDCA721B2FD21008BA4D7 /* Accident.swift */; };
+		95ADDCAA21B2FF4D008BA4D7 /* WhatToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDCA921B2FF4D008BA4D7 /* WhatToDoTableViewCell.swift */; };
+		95ADDCAD21B30257008BA4D7 /* DatailAccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ADDCAC21B30257008BA4D7 /* DatailAccidentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D7D10229A57D9BB990B36AD /* libPods-RoyalCrownInsurance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoyalCrownInsurance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92276F1D1A73EEE34BFD0CDB /* Pods-RoyalCrownInsurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalCrownInsurance.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalCrownInsurance/Pods-RoyalCrownInsurance.release.xcconfig"; sourceTree = "<group>"; };
+		95ADDC6121B017FE008BA4D7 /* RoyalCrownInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalCrownInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ADDC6421B017FE008BA4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95ADDC6621B017FE008BA4D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95ADDC6921B017FE008BA4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95ADDC6E21B017FF008BA4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95ADDC7021B017FF008BA4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95ADDC7621B0191A008BA4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		95ADDC7821B02B8E008BA4D7 /* RoyalAssistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyalAssistViewController.swift; sourceTree = "<group>"; };
+		95ADDC7A21B02D00008BA4D7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		95ADDC7C21B04457008BA4D7 /* ReportAnAccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAnAccidentViewController.swift; sourceTree = "<group>"; };
+		95ADDC7E21B07A83008BA4D7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95ADDC8021B07E4F008BA4D7 /* BranchesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesMapViewController.swift; sourceTree = "<group>"; };
+		95ADDC8621B14409008BA4D7 /* AboutRoyalAssistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRoyalAssistViewController.swift; sourceTree = "<group>"; };
+		95ADDC8C21B1D075008BA4D7 /* Office.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Office.swift; sourceTree = "<group>"; };
+		95ADDC9421B2CB37008BA4D7 /* PersonalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewController.swift; sourceTree = "<group>"; };
+		95ADDC9621B2CB67008BA4D7 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		95ADDC9821B2DB4A008BA4D7 /* PersonalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewCell.swift; sourceTree = "<group>"; };
+		95ADDC9B21B2EE34008BA4D7 /* DatailPersonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailPersonal.swift; sourceTree = "<group>"; };
+		95ADDC9F21B2F802008BA4D7 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		95ADDCA321B2FBDE008BA4D7 /* WhatTodDoIfTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatTodDoIfTableViewController.swift; sourceTree = "<group>"; };
+		95ADDCA721B2FD21008BA4D7 /* Accident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accident.swift; sourceTree = "<group>"; };
+		95ADDCA921B2FF4D008BA4D7 /* WhatToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToDoTableViewCell.swift; sourceTree = "<group>"; };
+		95ADDCAC21B30257008BA4D7 /* DatailAccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailAccidentViewController.swift; sourceTree = "<group>"; };
+		9E26B8AD3217527DC96F2434 /* Pods-RoyalCrownInsurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalCrownInsurance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyalCrownInsurance/Pods-RoyalCrownInsurance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95ADDC5E21B017FE008BA4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A394C782974E6CE53DCDBC6 /* libPods-RoyalCrownInsurance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3B9CD026D23C9195236D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D7D10229A57D9BB990B36AD /* libPods-RoyalCrownInsurance.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95ADDC5821B017FE008BA4D7 = {
+			isa = PBXGroup;
+			children = (
+				95ADDC7E21B07A83008BA4D7 /* Podfile */,
+				95ADDC6321B017FE008BA4D7 /* RoyalCrownInsurance */,
+				95ADDC6221B017FE008BA4D7 /* Products */,
+				E642EE136FB6EF2ADE42C5D3 /* Pods */,
+				2C3B9CD026D23C9195236D5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95ADDC6221B017FE008BA4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC6121B017FE008BA4D7 /* RoyalCrownInsurance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95ADDC6321B017FE008BA4D7 /* RoyalCrownInsurance */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCD421B47C0A008BA4D7 /* RoyalAssist */,
+				95ADDCD221B47BAF008BA4D7 /* RoyalPayment */,
+				95ADDCA121B2F9F5008BA4D7 /* WhatToDoIf */,
+				95ADDC9D21B2F7C9008BA4D7 /* About */,
+				95ADDC8E21B2CADB008BA4D7 /* Services */,
+				95ADDC8221B08A6A008BA4D7 /* Application */,
+				95ADDC6621B017FE008BA4D7 /* ViewController.swift */,
+				95ADDC7021B017FF008BA4D7 /* Info.plist */,
+				95ADDC7621B0191A008BA4D7 /* Assets.xcassets */,
+			);
+			path = RoyalCrownInsurance;
+			sourceTree = "<group>";
+		};
+		95ADDC8221B08A6A008BA4D7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC8521B08A8D008BA4D7 /* Model */,
+				95ADDC8421B08A84008BA4D7 /* View */,
+				95ADDC8321B08A78008BA4D7 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		95ADDC8321B08A78008BA4D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC6421B017FE008BA4D7 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95ADDC8421B08A84008BA4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC6821B017FE008BA4D7 /* Main.storyboard */,
+				95ADDC6D21B017FF008BA4D7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95ADDC8521B08A8D008BA4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95ADDC8821B1CF79008BA4D7 /* Branches */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC8B21B1CF9F008BA4D7 /* Model */,
+				95ADDC8A21B1CF99008BA4D7 /* View */,
+				95ADDC8921B1CF92008BA4D7 /* Controller */,
+			);
+			path = Branches;
+			sourceTree = "<group>";
+		};
+		95ADDC8921B1CF92008BA4D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC8021B07E4F008BA4D7 /* BranchesMapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95ADDC8A21B1CF99008BA4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95ADDC8B21B1CF9F008BA4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC8C21B1D075008BA4D7 /* Office.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95ADDC8E21B2CADB008BA4D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9021B2CAF8008BA4D7 /* Bussines */,
+				95ADDC8F21B2CAE8008BA4D7 /* Personal */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		95ADDC8F21B2CAE8008BA4D7 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9A21B2EE08008BA4D7 /* DatailPersonal */,
+				95ADDC9321B2CB11008BA4D7 /* Model */,
+				95ADDC9221B2CB0C008BA4D7 /* View */,
+				95ADDC9121B2CB04008BA4D7 /* Controller */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		95ADDC9021B2CAF8008BA4D7 /* Bussines */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bussines;
+			sourceTree = "<group>";
+		};
+		95ADDC9121B2CB04008BA4D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9421B2CB37008BA4D7 /* PersonalTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95ADDC9221B2CB0C008BA4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9821B2DB4A008BA4D7 /* PersonalTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95ADDC9321B2CB11008BA4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9621B2CB67008BA4D7 /* Services.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95ADDC9A21B2EE08008BA4D7 /* DatailPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9B21B2EE34008BA4D7 /* DatailPersonal.swift */,
+			);
+			path = DatailPersonal;
+			sourceTree = "<group>";
+		};
+		95ADDC9D21B2F7C9008BA4D7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9E21B2F7D7008BA4D7 /* About us */,
+				95ADDC8821B1CF79008BA4D7 /* Branches */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		95ADDC9E21B2F7D7008BA4D7 /* About us */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC9F21B2F802008BA4D7 /* AboutUs.swift */,
+			);
+			path = "About us";
+			sourceTree = "<group>";
+		};
+		95ADDCA121B2F9F5008BA4D7 /* WhatToDoIf */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCAB21B30205008BA4D7 /* DatailAccident */,
+				95ADDCA621B2FD16008BA4D7 /* Model */,
+				95ADDCA521B2FD10008BA4D7 /* View */,
+				95ADDCA221B2FBB0008BA4D7 /* Controller */,
+			);
+			path = WhatToDoIf;
+			sourceTree = "<group>";
+		};
+		95ADDCA221B2FBB0008BA4D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCA321B2FBDE008BA4D7 /* WhatTodDoIfTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95ADDCA521B2FD10008BA4D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCA921B2FF4D008BA4D7 /* WhatToDoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95ADDCA621B2FD16008BA4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCA721B2FD21008BA4D7 /* Accident.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95ADDCAB21B30205008BA4D7 /* DatailAccident */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCAC21B30257008BA4D7 /* DatailAccidentViewController.swift */,
+			);
+			path = DatailAccident;
+			sourceTree = "<group>";
+		};
+		95ADDCD221B47BAF008BA4D7 /* RoyalPayment */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCD321B47BD8008BA4D7 /* WebController */,
+			);
+			path = RoyalPayment;
+			sourceTree = "<group>";
+		};
+		95ADDCD321B47BD8008BA4D7 /* WebController */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC7A21B02D00008BA4D7 /* WebViewController.swift */,
+			);
+			path = WebController;
+			sourceTree = "<group>";
+		};
+		95ADDCD421B47C0A008BA4D7 /* RoyalAssist */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDCD721B47C8C008BA4D7 /* AboutRoyalAssist */,
+				95ADDCD621B47C75008BA4D7 /* ReportAnAccident */,
+				95ADDCD521B47C63008BA4D7 /* Controller */,
+			);
+			path = RoyalAssist;
+			sourceTree = "<group>";
+		};
+		95ADDCD521B47C63008BA4D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC7821B02B8E008BA4D7 /* RoyalAssistViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95ADDCD621B47C75008BA4D7 /* ReportAnAccident */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC7C21B04457008BA4D7 /* ReportAnAccidentViewController.swift */,
+			);
+			path = ReportAnAccident;
+			sourceTree = "<group>";
+		};
+		95ADDCD721B47C8C008BA4D7 /* AboutRoyalAssist */ = {
+			isa = PBXGroup;
+			children = (
+				95ADDC8621B14409008BA4D7 /* AboutRoyalAssistViewController.swift */,
+			);
+			path = AboutRoyalAssist;
+			sourceTree = "<group>";
+		};
+		E642EE136FB6EF2ADE42C5D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E26B8AD3217527DC96F2434 /* Pods-RoyalCrownInsurance.debug.xcconfig */,
+				92276F1D1A73EEE34BFD0CDB /* Pods-RoyalCrownInsurance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95ADDC6021B017FE008BA4D7 /* RoyalCrownInsurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95ADDC7321B017FF008BA4D7 /* Build configuration list for PBXNativeTarget "RoyalCrownInsurance" */;
+			buildPhases = (
+				13B4A0058E0F5FE7FC33A481 /* [CP] Check Pods Manifest.lock */,
+				95ADDC5D21B017FE008BA4D7 /* Sources */,
+				95ADDC5E21B017FE008BA4D7 /* Frameworks */,
+				95ADDC5F21B017FE008BA4D7 /* Resources */,
+				73DBE4764679C1F87B80BAD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoyalCrownInsurance;
+			productName = RoyalCrownInsurance;
+			productReference = 95ADDC6121B017FE008BA4D7 /* RoyalCrownInsurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95ADDC5921B017FE008BA4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andriy Dziamko";
+				TargetAttributes = {
+					95ADDC6021B017FE008BA4D7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 95ADDC5C21B017FE008BA4D7 /* Build configuration list for PBXProject "RoyalCrownInsurance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95ADDC5821B017FE008BA4D7;
+			productRefGroup = 95ADDC6221B017FE008BA4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95ADDC6021B017FE008BA4D7 /* RoyalCrownInsurance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95ADDC5F21B017FE008BA4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ADDC6F21B017FF008BA4D7 /* LaunchScreen.storyboard in Resources */,
+				95ADDC7721B0191A008BA4D7 /* Assets.xcassets in Resources */,
+				95ADDC7F21B07A83008BA4D7 /* Podfile in Resources */,
+				95ADDC6A21B017FE008BA4D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13B4A0058E0F5FE7FC33A481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoyalCrownInsurance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DBE4764679C1F87B80BAD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoyalCrownInsurance/Pods-RoyalCrownInsurance-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoyalCrownInsurance/Pods-RoyalCrownInsurance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95ADDC5D21B017FE008BA4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ADDC8721B14409008BA4D7 /* AboutRoyalAssistViewController.swift in Sources */,
+				95ADDCA021B2F802008BA4D7 /* AboutUs.swift in Sources */,
+				95ADDC9521B2CB37008BA4D7 /* PersonalTableViewController.swift in Sources */,
+				95ADDCAA21B2FF4D008BA4D7 /* WhatToDoTableViewCell.swift in Sources */,
+				95ADDCA421B2FBDE008BA4D7 /* WhatTodDoIfTableViewController.swift in Sources */,
+				95ADDC6721B017FE008BA4D7 /* ViewController.swift in Sources */,
+				95ADDC7921B02B8E008BA4D7 /* RoyalAssistViewController.swift in Sources */,
+				95ADDC8D21B1D075008BA4D7 /* Office.swift in Sources */,
+				95ADDC9721B2CB67008BA4D7 /* Services.swift in Sources */,
+				95ADDC9921B2DB4A008BA4D7 /* PersonalTableViewCell.swift in Sources */,
+				95ADDC6521B017FE008BA4D7 /* AppDelegate.swift in Sources */,
+				95ADDCA821B2FD21008BA4D7 /* Accident.swift in Sources */,
+				95ADDC7B21B02D00008BA4D7 /* WebViewController.swift in Sources */,
+				95ADDC7D21B04457008BA4D7 /* ReportAnAccidentViewController.swift in Sources */,
+				95ADDC9C21B2EE34008BA4D7 /* DatailPersonal.swift in Sources */,
+				95ADDCAD21B30257008BA4D7 /* DatailAccidentViewController.swift in Sources */,
+				95ADDC8121B07E4F008BA4D7 /* BranchesMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95ADDC6821B017FE008BA4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95ADDC6921B017FE008BA4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95ADDC6D21B017FF008BA4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95ADDC6E21B017FF008BA4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95ADDC7121B017FF008BA4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95ADDC7221B017FF008BA4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95ADDC7421B017FF008BA4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E26B8AD3217527DC96F2434 /* Pods-RoyalCrownInsurance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W386C7H7A;
+				INFOPLIST_FILE = RoyalCrownInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ua.andriydziamko.RoyalCrownInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95ADDC7521B017FF008BA4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92276F1D1A73EEE34BFD0CDB /* Pods-RoyalCrownInsurance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W386C7H7A;
+				INFOPLIST_FILE = RoyalCrownInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ua.andriydziamko.RoyalCrownInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95ADDC5C21B017FE008BA4D7 /* Build configuration list for PBXProject "RoyalCrownInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95ADDC7121B017FF008BA4D7 /* Debug */,
+				95ADDC7221B017FF008BA4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95ADDC7321B017FF008BA4D7 /* Build configuration list for PBXNativeTarget "RoyalCrownInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95ADDC7421B017FF008BA4D7 /* Debug */,
+				95ADDC7521B017FF008BA4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95ADDC5921B017FE008BA4D7 /* Project object */;
+}
